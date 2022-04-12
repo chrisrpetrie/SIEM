@@ -3,5 +3,5 @@ This will install Sysmon on the local system using the SwiftOnSecurity configura
 
 Thanks to SwiftOnSecurity for this resource https://github.com/SwiftOnSecurity/sysmon-config
 
-1. Place the sysmon executable and the sysmonconfig-export.xml in the same folder
+1. Place the sysmon executable and the sysmonconfig-export.xml in the same folder (Note: Use the relevant 32/64 bit exe depending on your architecture)
 2. Run  the command (as Administrator) `sysmon64.exe -i sysmonconfig-export.xml -accepteula`
